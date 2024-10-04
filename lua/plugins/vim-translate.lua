@@ -1,6 +1,6 @@
 return {
 	{
-		"TwIStOy/vim-translate-me?tab=readme-ov-file#installation",
+		"voldikss/vim-translator",
 		lazy = true,
 		cmd = { "Translate" },
 		opts = {},
