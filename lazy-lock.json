@@ -37,6 +37,7 @@
   "lualine-pretty-path": { "branch": "main", "commit": "51873c2ea8e70843b7599913a64eabfbbd5b980a" },
   "lualine-time": { "branch": "main", "commit": "8838875e2e787293bb905d23dbb91ef4bde188ea" },
   "lualine.nvim": { "branch": "master", "commit": "b431d228b7bbcdaea818bdc3e25b8cdbe861f056" },
+  "luminate.nvim": { "branch": "main", "commit": "d347e3997022ce96c695b919e3d0171e1ccea3d2" },
   "mason-lspconfig": { "branch": "main", "commit": "25c11854aa25558ee6c03432edfa0df0217324be" },
   "mason.nvim": { "branch": "main", "commit": "e2f7f9044ec30067bc11800a9e266664b88cda22" },
   "mini.comment": { "branch": "main", "commit": "a56581c40c19fa26f2b39da72504398de3173c5a" },
@@ -85,6 +86,7 @@
   "vim-cursorword": { "branch": "master", "commit": "371fdd7fa8817c28aa09d181cfcfa3c7ca29bf56" },
   "vim-illuminate": { "branch": "master", "commit": "5eeb7951fc630682c322e88a9bbdae5c224ff0aa" },
   "vim-translator": { "branch": "master", "commit": "6f0639c6d471a3a90ac19db96e1e379c030f74e3" },
+  "which-key.nvim": { "branch": "main", "commit": "8badb359f7ab8711e2575ef75dfe6fbbd87e4821" },
   "winresize.nvim": { "branch": "main", "commit": "a54f4a0dbfd7e52e0e8153325d0c4571e0d33217" },
   "yazi.nvim": { "branch": "main", "commit": "b6ac040a9c9671c1a546992f8449d903259e2249" }
 }
