@@ -4,7 +4,7 @@ return {
 		event = "BufAdd",
 		vim.keymap.set("n", "<leader>b]", ":BufferLineCycleNext<CR>"),
 		version = "*",
-		dependencies = "nvim-tree/nvim-web-devicons",
+		dependencies = { "nvim-tree/nvim-web-devicons" },
 		opts = {
 			options = {
 				close_command = "bdelete! %d", -- 点击关闭按钮关闭
