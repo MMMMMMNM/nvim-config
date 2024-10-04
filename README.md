@@ -1,10 +1,15 @@
 # my nvim config
 
 ##   Directory 
-  lua
-  init.lua
-  lazy-lock.json
-󰪷  README.md
+```shell
+lua
+    overseer
+        components
+        template
+    Plugins
+init.lua
+lazy-lock.json
+```
 ## Plugins
 ```commd 
 :Lazy or into lazy-lock.json
