@@ -17,14 +17,18 @@ lazy-lock.json
 ## 🛠️ Installation
 
 #### Make a backup of your current nvim and shared folder
-
+linux
 ```shell
 mv ~/.config/nvim ~/.config/nvim.bak
 mv ~/.local/share/nvim ~/.local/share/nvim.bak
 mv ~/.local/state/nvim ~/.local/state/nvim.bak
 mv ~/.cache/nvim ~/.cache/nvim.bak
 ```
-
+powershell
+```shell
+Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim.bak
+Move-Item $env:LOCALAPPDATA\nvim-data $env:LOCALAPPDATA\nvim-data.bak
+```
 #### Create a new user repository from this template
 
 Press the "Use this template" button above to create a new repository to store your user configuration.
