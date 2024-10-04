@@ -41,7 +41,7 @@ git clone --depth 1 https://github.com/MMMMMMNM/nvim-config $env:LOCALAPPDATA\nv
 # remove template's git connection to set up your own later
 Remove-Item $env:LOCALAPPDATA\nvim\.git -Recurse -Force
 ```
-#### Start Neovim
+#### 🚀 Start Neovim
 
 ```shell
 nvim
