@@ -2,14 +2,9 @@
 
 ##   Directory 
   lua
-  .neoconf.json
-  .stylua.toml
   init.lua
   lazy-lock.json
-  neovide_backtraces.log
-󰉢  neovim.yml
 󰪷  README.md
-  selene.toml
 ## Plugins
 commd :Lazy or into lazy-lock.json
 ## 🛠️ Installation
@@ -32,7 +27,7 @@ You can also just clone this repository directly if you do not want to track you
 #### Clone the repository
 
 ```shell
-git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
+git clone https://github.com/MMMMMMNM/nvim-config ~/.config/nvim
 ```
 
 #### Start Neovim
