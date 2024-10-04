@@ -6,7 +6,9 @@
   lazy-lock.json
 󰪷  README.md
 ## Plugins
-commd :Lazy or into lazy-lock.json
+```commd 
+:Lazy or into lazy-lock.json
+```
 ## 🛠️ Installation
 
 #### Make a backup of your current nvim and shared folder
@@ -27,9 +29,13 @@ You can also just clone this repository directly if you do not want to track you
 #### Clone the repository
 
 ```shell
-git clone https://github.com/MMMMMMNM/nvim-config ~/.config/nvim
+git clone https://github.com/MMMMMMNM/nvim-config ~/.config/nvim -- linux
 ```
-
+```shell
+git clone --depth 1 https://github.com/MMMMMMNM/nvim-config $env:LOCALAPPDATA\nvim
+# remove template's git connection to set up your own later
+Remove-Item $env:LOCALAPPDATA\nvim\.git -Recurse -Force
+```
 #### Start Neovim
 
 ```shell
