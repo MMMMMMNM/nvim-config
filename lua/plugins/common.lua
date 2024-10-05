@@ -5,7 +5,9 @@ return {
 			{ "j", "<Plug>(accelerated_jk_gj)" },
 			{ "k", "<Plug>(accelerated_jk_gk)" },
 		},
-		opts = {},
+		config = function()
+			require("accelerated_jk").setup()
+		end,
 	},
 	{
 		"windwp/nvim-autopairs",
