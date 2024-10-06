@@ -60,7 +60,7 @@ return {
       dashboard.button("n", " " .. " New file",        "<cmd> ene <BAR> startinsert <cr>"),
       dashboard.button("r", " " .. " Recent files",    "<cmd> Telescope oldfiles <cr>"),
       dashboard.button("g", " " .. " Find text",       "<cmd> Telescope live_grep <cr>"),
-      dashboard.button("Z", " " .. " Open Directories", "<cmd> lua require('telescope').extensions.zoxide.list() <cr>"),
+    --dashboard.button("Z", " " .. " Open Directories", "<cmd> lua require('telescope').extensions.zoxide.list() <cr>"),
     --dashboard.button("c", " " .. " Config",          "<cmd> lua require('lazyvim.util').telescope.config_files()() <cr>"),
       dashboard.button("s", " " .. " Restore Session", [[<cmd> lua require("persistence").load() <cr>]]),
     --dashboard.button("x", " " .. " Lazy Extras",     "<cmd> LazyExtras <cr>"),
