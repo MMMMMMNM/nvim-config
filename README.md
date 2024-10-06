@@ -50,3 +50,4 @@ Remove-Item $env:LOCALAPPDATA\nvim\.git -Recurse -Force
 ```shell
 nvim
 ```
+
