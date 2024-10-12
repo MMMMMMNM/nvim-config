@@ -50,4 +50,6 @@ Remove-Item $env:LOCALAPPDATA\nvim\.git -Recurse -Force
 ```shell
 nvim
 ```
-
+```dependencies
+LazyGit fzf grep nodejs yazi
+```
