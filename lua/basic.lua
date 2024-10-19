@@ -32,7 +32,7 @@ o.autoread = true
 o.title = true
 o.swapfile = false
 o.backup = false
-
+o.linespace = 0
 --set mouse is true
 o.mouse = "a"
 o.exrc = true
