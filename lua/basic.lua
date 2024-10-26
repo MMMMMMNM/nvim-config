@@ -35,12 +35,14 @@ o.backup = false
 o.linespace = 0
 --set mouse is true
 o.mouse = "a"
+o.fileencoding = "utf-8"
 o.exrc = true
 o.wrap = true
 --set clipboard
 o.clipboard = "unnamedplus"
 o.splitright = true
 g.loaded_netrw = 1
+g.encoding = "UTF-8"
 g.loaded_netrwPlugin = 1
 --------<leader>
 g.mapleader = " "
