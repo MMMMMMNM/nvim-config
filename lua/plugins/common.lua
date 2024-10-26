@@ -1,6 +1,7 @@
 return {
 	{
 		"rhysd/accelerated-jk",
+		enabled = false,
 		keys = {
 			{ "j", "<Plug>(accelerated_jk_gj)" },
 			{ "k", "<Plug>(accelerated_jk_gk)" },
